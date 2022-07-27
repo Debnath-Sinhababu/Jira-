@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+.toolbox-cont{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    
+    height: 10vh;
+    background-color: #141E27 ;
+}
+.toolbox-priority-cont{
+    width: 20%;
+    height: 70%;
+    background-color: whitesmoke;
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+
+}
+.action-btn-cont{
+    width: 10%;
+    height: 70%;
+    background-color: white;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}  
+.color{
+    width:18%;
+    height:90%;
+    background-color: aqua;
+}
+.lightpink{
+    background-color:lightpink;
+}
+
+.blue{
+    background-color:lightblue
+}
+
+.green{
+    background-color:lightgreen;
+}
+.black{
+    background-color:black
+}
+.remove-btn{
+  width:2rem;
+  height: 2rem;
+  margin-top: 0.8rem;
+   
+}
+.main-cont{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+.modal-cont{
+    
+    width: 40vw;
+    height:40vh;
+    margin-top: 20vh;
+    background-color: #141E27;
+    margin-left: 40vh;
+    display: flex;
+}
+.priority-color-cont{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.textarea-cont{
+  flex: 2.5;
+  background-color: coral;
+  outline: none;
+  color: aqua;
+  
+}
+.priority-color{
+    width: 5rem;
+    height: 2rem;
+}
+.modal{
+  display: none;
+}
+.new{
+    /* padding-top: 20px; */
+    height:5vw;
+    margin: 20px;
+    width:20vw;
+    color: aqua;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.subdiv{
+    margin-top: 0px;
+    width: 100%;
+    border: 1px solid white;
+    flex: 1;
+}
+.red{
+    color: rgba(255, 0, 0, 0.726);
+}
+.fa-lock{
+    color: black;
+    margin-left: 18vw;
+    
+}
+.fa-lock-open{
+    color: black;
+    margin-left: 18vw;
+   
+}
+.para{
+    margin-top: 10px;
+    word-wrap: break-word;
+    overflow-y: auto;
+    flex:2;
+}
+
+
